@@ -1,0 +1,62 @@
+.container {
+    text-align: center; /* コンテナ内の要素を中央揃え */
+}
+
+.container h1 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/FashionablyLate.png') no-repeat;
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 300px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 0 auto; /* 中央に配置 */
+}
+
+.container h2 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/Confirm.png') no-repeat;
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 120px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 20px auto 0; /* 上下のマージンを調整して間隔を設定 */
+    text-align: center; /* テキストを中央揃え */
+}
+
+table {
+    width: 50%; /* 表の幅を半分に縮める */
+    border-collapse: collapse; /* 罫線を重ねて表示 */
+    margin: 0 auto; /* 表を中央に配置 */
+}
+
+table, th, td {
+    border: 1px solid #82756A; /* 罫線の色を設定 */
+}
+
+th, td {
+    padding: 10px; /* セル内の余白を設定 */
+    text-align: left; /* テキストを左揃え */
+}
+
+th {
+    background-color: #E0DFDE; /* ヘッダーの背景色を設定 */
+    color: #82756A; /* ヘッダーのテキスト色を設定 */
+    width: 200px; /* ラベルの幅を固定 */
+}
+
+tr:last-child td {
+    height: 100px; /* 最下の項目の高さを高く設定 */
+}
+
+.submit-btn {
+    padding: 15px 30px; /* ボタンを大きくする */
+    background-color: #82756A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* 表との間にマージンを設定 */
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}

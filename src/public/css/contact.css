@@ -1,0 +1,153 @@
+/* public/css/contact.css */
+.container {
+    text-align: center; /* コンテナ内の要素を中央揃え */
+}
+
+.container h1 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/FashionablyLate.png') no-repeat;
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 300px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 0 auto; /* 中央に配置 */
+}
+
+.container h2 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/Contact.png') no-repeat;
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 120px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 20px auto 0; /* 上下のマージンを調整して間隔を設定 */
+    text-align: center; /* テキストを中央揃え */
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* 必要に応じて調整 */
+    position: relative; /* 親要素を相対位置に設定 */
+}
+
+.form-group label {
+    flex: 0 0 150px; /* ラベルの幅を固定 */
+    margin-right: 10px;
+    text-align: left; /* ラベルを左揃え */
+    position: relative; /* ラベルを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    height: 30px; /* 任意の高さに調整 */
+    display: flex; /* フレックスボックスを使用 */
+    align-items: center; /* 縦中央に配置 */
+    color:  #82756A;
+}
+
+.form-group input[type="radio"] {
+    position: relative; /* ラジオボタンを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    margin-right: 5px; /* ラジオボタンとラベルの間にスペースを追加 */
+}
+
+#last_name {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 300px; /* last_name の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+#first_name {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 510px; /* 任意の位置に調整 */
+    width: 300px; /* first_name の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+
+.form-group label[for="male"],
+.form-group label[for="female"],
+.form-group label[for="other"] {
+    position: relative; /* ラベルを相対位置に設定 */
+    left: 510px; /* 任意の位置に調整 */
+    margin-right: 20px; /* ラベル間のスペースを追加 */
+    color: #82756A; /* ラベルの文字色を設定 */
+}
+
+#email {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 610px; /* email の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+#tell {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 610px; /* tell の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+#address {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 610px; /* address の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+#building {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 610px; /* building の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+#category_id {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 300px; /* category_id の幅を調整 */
+    height: 30px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+#detail {
+    position: relative; /* 入力エリアを相対位置に設定 */
+    left: 500px; /* 任意の位置に調整 */
+    width: 610px; /* detail の幅を調整 */
+    height: 60px; /* 任意の高さに調整 */
+    background-color: #f4f4f4;
+    border: none; /* 枠線をなくす */
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #82756A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.required {
+    color: red; /* 赤色に設定 */
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    height: 12px; /* エラーメッセージの高さを固定 */
+    margin-top: -5; /* エラーメッセージの上部にスペースを追加 */
+    margin-bottom: -12px; /* エラーメッセージの下部に負のマージンを追加 */
+    position: relative; /* エラーメッセージを相対位置に設定 */
+    left: 510px; /* 任意の位置に調整 */
+}

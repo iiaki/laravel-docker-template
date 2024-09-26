@@ -1,0 +1,109 @@
+body {
+    background-size: contain; /* 背景画像を小さくする */
+    margin: 0; /* 余白をなくす */
+    padding: 0; /* 余白をなくす */
+    font-family: Arial, sans-serif; /* フォントを設定 */
+    display: flex; /* フレックスボックスを使用 */
+    flex-direction: column; /* 縦方向に配置 */
+    align-items: center; /* 水平方向に中央揃え */
+    height: 100vh; /* ビューポートの高さを設定 */
+}
+
+
+h1 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/FashionablyLate.png') no-repeat center center; /* 画像を設定 */
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 300px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 20px 0; /* 上下の余白を設定 */
+}
+
+.register-link {
+    display: block; /* ブロック要素として表示 */
+    width: 100px; /* 幅を設定 */
+    height: 60px; /* 高さを設定 */
+    text-indent: 0; /* テキストを非表示にする */
+    margin-left: 20px; /* 左側の余白を設定 */
+}
+
+h2 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/Login.png') no-repeat center center; /* 画像を設定 */
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 300px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 20px 0; /* 上下の余白を設定 */
+}
+h3 {
+    display: block; /* ブロック要素として表示 */
+    background: url('/images/Register.png') no-repeat center center; /* 画像を設定 */
+    text-indent: -9999px; /* テキストを非表示にする */
+    width: 300px; /* 画像の幅 */
+    height: 60px; /* 画像の高さ */
+    margin: 20px 0; /* 上下の余白を設定 */
+}
+
+.login-container {
+    text-align: center; /* コンテナ内の要素を中央揃え */
+    background-color: transparent; /* 背景を透明に設定 */
+    padding: 40px; /* 内側の余白を増やす */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* 影を強くする */
+    max-width: 800px; /* 最大幅を広げる */
+    width: 500px; /* 幅を80%に設定 */
+    position: relative; /* 相対位置を設定 */
+    top: -20px; /* 上に50px移動 */
+    height: 350px;
+    display: flex; /* フレックスボックスを使用 */
+    flex-direction: column; /* 縦方向に配置 */
+    align-items: center; /* 水平方向に中央揃え */
+    justify-content: space-between; /* 垂直方向に均等割り付け */
+}
+
+.register-container {
+    text-align: center; /* コンテナ内の要素を中央揃え */
+    background-color: transparent; /* 背景を透明に設定 */
+    padding: 40px; /* 内側の余白を増やす */
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* 影を強くする */
+    max-width: 800px; /* 最大幅を広げる */
+    width: 500px; /* 幅を80%に設定 */
+    position: relative; /* 相対位置を設定 */
+    top: 10px; /* 上に50px移動 */
+    height: 350px;
+    display: flex; /* フレックスボックスを使用 */
+    flex-direction: column; /* 縦方向に配置 */
+    align-items: center; /* 水平方向に中央揃え */
+    justify-content: space-between; /* 垂直方向に均等割り付け */
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    width: 300px; /* 幅を80%に設定 */
+    text-align: center; /* コンテナ内の要素を中央揃え */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 300px; /* 幅を80%に設定 */
+}
+
+.register-btn,
+.login-btn {
+    background-color: #82756A;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+}
